@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity{
                     }else {
                         n1 = Float.parseFloat(et1.getText().toString());
                         n2 = Float.parseFloat(et2.getText().toString());
-                        res = n1 + n2;
+                        res = n1 / n2;
                         Toast.makeText(getApplicationContext(), "El resultado es: " + res, Toast.LENGTH_SHORT).show();
                     }
                 }
